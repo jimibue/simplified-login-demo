@@ -9,11 +9,11 @@ import AccountProvider from "./providers/AccountProvider";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-      <BrowserRouter>
-    <AccountProvider>
+    <BrowserRouter>
+      <AccountProvider>
         <App />
-    </AccountProvider>
-      </BrowserRouter>
+      </AccountProvider>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

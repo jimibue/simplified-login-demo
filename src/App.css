@@ -23,4 +23,11 @@ a.active {
   padding:10px;
   border: 2px solid orange;
 }
+.showcard{
+  display:block;
+}
+
+.hidecard{
+  display:none;
+}
 

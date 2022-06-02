@@ -20,12 +20,14 @@ const PageContainer = () => {
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">about</NavLink>
           {user && <NavLink to="/account">account</NavLink>}
+          {user && <NavLink to="/users">users</NavLink>}
         </div>
         <div>
             {renderRightNav()}
         </div>
       </div>
       <div className="page-content">
+          <h1>Outlet here</h1>
         <Outlet />
       </div>
     </div>
